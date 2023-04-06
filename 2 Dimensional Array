@@ -1,0 +1,32 @@
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    cout<<"\n \t----- Welcome to program -----\t \n";
+// Variables declaration
+int i,j,arr[2][3];
+
+// use for loop to input values for 2-D array
+for(i=0;i<2;i++)
+{
+    for(j=0;j<3;j++)
+    {
+        cout<<"Enter an integer : ";
+        cin>>arr[i][j];
+    }
+}
+
+// use for loop to print input values on screen
+for(i=0;i<2;i++)
+{
+    for(j=0;j<3;j++)
+    {
+        cout<<arr[i][j]<<"\t";
+    }
+    cout<<endl;
+}
+
+    return 0;
+}
